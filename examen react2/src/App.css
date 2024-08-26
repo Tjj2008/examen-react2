@@ -41,9 +41,14 @@
   color: #888;
 }
 
-.container {
-  grid-template-columns: 100px 50px 100px;
-  grid-template-rows: 80px auto 80px; 
-  column-gap: 10px;
-  row-gap: 15px;
+.teclado {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; 
+}
+
+.teclado button {
+  padding: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
