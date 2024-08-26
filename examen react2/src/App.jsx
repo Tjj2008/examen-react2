@@ -35,7 +35,6 @@ function Calculadora() {
         <input type="text" value={input} readOnly />
         <div className="resultado">{resultado}</div>
       </div>
-      <div className="container">
       <div className="teclado">
         <button onClick={() => mostrarnumero('1')}>1</button>
         <button onClick={() => mostrarnumero('2')}>2</button>
@@ -46,13 +45,12 @@ function Calculadora() {
         <button onClick={() => mostrarnumero('7')}>7</button>
         <button onClick={() => mostrarnumero('8')}>8</button>
         <button onClick={() => mostrarnumero('9')}>9</button>
+        <button onClick={() => mostrarnumero('+')}>+</button>
+        <button onClick={() => mostrarnumero('-')}>-</button>
         <button onClick={() => mostrarnumero('*')}>*</button>
         <button onClick={() => mostrarnumero('/')}>/</button>
-        <button onClick={() => mostrarnumero('-')}>-</button>
-        <button onClick={() => mostrarnumero('+')}>+</button>
         <button onClick={verresultado}>=</button>
-        <button onClick={limpiar}>limpiar</button>
-      </div>
+        <button onClick={limpiar}>Limpiar</button>
       </div>
     </div>
   );
