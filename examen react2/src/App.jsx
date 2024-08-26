@@ -49,7 +49,7 @@ function Calculadora() {
         <button onClick={() => mostrarnumero('-')}>-</button>
         <button onClick={() => mostrarnumero('+')}>+</button>
         <button onClick={verresultado}>=</button>
-        <button onClick={limpiar}>limpiar</button>
+        <button onClick={impiar}>limpiar</button>
       </div>
       </div>
     </div>
